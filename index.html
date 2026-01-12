@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>@𝘯𝘩𝘢𝘵 𝘮𝘪𝘯𝘩✧</title>
+
+<script>
+let text = "   @yenn✧   ";
+let pos = 0;
+let dir = 1;
+
+setInterval(() => {
+  document.title = text.substring(pos) + text.substring(0, pos);
+  pos += dir;
+  if (pos === text.length - 1 || pos === 0) dir *= -1;
+}, 200);
+</script>
+
+<style>
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+a {
+  color: #38bdf8;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+  <div>
+    <h1>@𝘯𝘩𝘢𝘵 𝘮𝘪𝘯𝘩✧</h1>
+    <a href="https://gun.lol/nhatminhcte">gun.lol</a>
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+    <a href="#">Discord</a>
+  </div>
+</body>
+</html>
